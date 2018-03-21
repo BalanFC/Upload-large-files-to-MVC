@@ -69,7 +69,7 @@ namespace WinFileUpload
                     catch (Exception ex)
                     {
                         // log error
-                        rslt = false;
+                        rslt = true;
                     }
                 }
             }
